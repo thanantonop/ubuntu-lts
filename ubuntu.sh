@@ -23,6 +23,9 @@ sudo snap install code --classic
 sudo snap install sublime-text --classic
 sudo snap refresh
 
+flatpak install flathub org.filezillaproject.Filezilla -y
+flatpak update
+
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
