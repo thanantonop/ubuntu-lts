@@ -21,16 +21,20 @@ sudo snap install vlc
 sudo snap install gimp
 sudo snap install inkscape
 sudo snap install krita
+sudo snap install kdenlive
 sudo snap install darktable
 sudo snap install spotify
 sudo snap install rnote
 sudo snap install onlyoffice-desktopeditors
+sudo snap install emacs --classic
 sudo snap install code --classic
+sudo snap install eclipse --classic
 sudo snap install sublime-text --classic
 sudo snap install obsidian --classic
 sudo snap refresh
 
 # Install flatpak packages
+flatpak update -y
 flatpak install flathub org.filezillaproject.Filezilla -y
 flatpak install flathub org.geany.Geany -y
 flatpak install flathub org.gnome.meld -y
@@ -38,7 +42,8 @@ flatpak install flathub com.google.Chrome -y
 flatpak install flathub com.usebottles.bottles -y
 flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub io.github.flattool.Warehouse -y
-flatpak update
+flatpak update -y
+flatpak uninstall --unused -y
 
 # Update Ubuntu
 sudo apt update -y
