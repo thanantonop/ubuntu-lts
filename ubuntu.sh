@@ -31,6 +31,9 @@ sudo snap refresh
 
 # Install flatpak packages
 flatpak install flathub org.filezillaproject.Filezilla -y
+flatpak install flathub org.geany.Geany -y
+flatpak install flathub org.gnome.meld -y
+flatpak install flathub md.obsidian.Obsidian -y
 flatpak install flathub com.google.Chrome -y
 flatpak install flathub com.usebottles.bottles -y
 flatpak install flathub com.github.tchx84.Flatseal -y
