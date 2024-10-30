@@ -6,7 +6,7 @@ sudo apt autopurge -y
 sudo apt autoclean -y
 
 # Install native deb packages
-sudo apt install build-essential automake autoconf gcc make linux-headers-$(uname -r) linux-headers-generic git vim mc htop bpytop nmap neofetch dnsutils ranger cmus curl gufw gdebi synaptic libfuse2t64 unzip p7zip bzip2 tar wget unrar default-jdk flatpak ubuntu-restricted-extras ttf-mscorefonts-installer gnome-software gnome-software-plugin-flatpak gnome-weather gnome-tweaks gnome-shell-extension-manager gnome-shell-extensions gnome-software gnome-maps gnome-weather gnome-builder gnome-boxes gnome-contacts gnome-tour dconf-editor sysprof d-spy epiphany-browser -y
+sudo apt install build-essential automake autoconf gcc make linux-headers-$(uname -r) linux-headers-generic git vim mc htop bpytop nmap neofetch dnsutils ranger cmus curl gufw gdebi synaptic libfuse2t64 unzip p7zip bzip2 tar wget unrar default-jdk flatpak ubuntu-restricted-extras ttf-mscorefonts-installer gnome-software gnome-software-plugin-flatpak gnome-console gnome-weather gnome-tweaks gnome-shell-extension-manager gnome-shell-extensions gnome-software gnome-maps gnome-weather gnome-builder gnome-boxes gnome-contacts gnome-tour dconf-editor sysprof d-spy epiphany-browser -y
 sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager -y
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
