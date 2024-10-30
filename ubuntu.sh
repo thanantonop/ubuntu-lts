@@ -25,7 +25,9 @@ sudo snap install kdenlive
 sudo snap install darktable
 sudo snap install spotify
 sudo snap install rnote
+sudo snap install stellarium-daily
 sudo snap install onlyoffice-desktopeditors
+sudo snap install nvim --classic
 sudo snap install emacs --classic
 sudo snap install code --classic
 sudo snap install eclipse --classic
